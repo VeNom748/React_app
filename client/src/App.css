@@ -1,0 +1,250 @@
+body{
+  overflow: hidden; /* Hide scrollbars */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap'); 
+@media only screen and (max-width:1000px){
+  .fixed-height{
+    height: fit-content !important;
+  }
+  .fixed-height-1{
+    height: 90vh !important;
+  }
+  .fixed-height-1{
+    height: 86vh !important;
+  }
+  /* ign up page css  */
+  .sign-up-card{
+    flex-direction: column;
+    width: 100% !important;
+    margin: 30px 0px;
+    padding: 20px;
+  }
+  .sign-up-card div{
+    width: 100% !important;
+    padding-left: 0px !important;
+  }
+  .inputs input{
+    width: 100% !important;
+  }
+
+  /* sign in page css  */
+  .login-card{
+    width: 100% !important;
+    flex-direction: column-reverse   !important;
+    padding: 30px !important;
+    margin: 40px 10px;
+  }
+
+  .login-card div{
+    width: 100% !important;
+    padding-left: 0px !important;
+  }
+
+  /* About page css  */
+  .about-card{
+    width: 100% !important;
+    flex-direction: column;
+    margin: 40px 0px;
+  }
+  .left-side{
+    padding: 20px !important;
+    flex-direction: column;
+  }
+  .left-about{
+    width: 100% !important;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .user-Photo{
+    margin: 0px 20px 16px 0px !important;
+  }
+  .right-about {
+
+    width: 100% !important;
+  }
+
+  /* .contact-page css  */
+  .contact-card{
+    max-width: 100% !important;
+    margin: 20px 0px;
+
+  }
+  .information{
+    flex-direction: column !important;
+    margin-bottom: 10px !important;
+  }
+  .info-card{
+    padding: 5px 12px !important;
+    width: 90% !important;
+    margin: 10px auto;
+  }
+  .info-card h6 ,p , i {
+    font-size: 14px;
+  }
+  .contact-box{
+    padding: 10px !important;
+    width: 80% !important;
+  }
+  .contact-form{
+    flex-direction: column !important;
+  }
+  .contact-form input{
+    width: 100% !important ;
+  }
+  .contact-form textarea{
+    height: 80px;
+  }
+  .formsvg{
+    display: none !important;
+  }
+
+}
+
+
+
+.logo{
+  width: 40px;
+}
+
+.fixed-height{
+  height: 89vh;
+}
+.fixed-height-1{
+  height: 89vh;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba(151, 151, 151, 0.11);
+  
+}
+.background{
+  background-color: white !important;
+}
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Sign up Page css  */
+.inputs input{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1.5px solid rgba(128, 128, 128, 0.192);
+  margin: 10px 0px;
+  width: 80%;
+  outline: none;
+  padding: 7px 30px;
+  font-size: 15px;
+}
+.inputs{
+  position: relative;
+
+}
+.reg-form i{
+  position: absolute;
+  z-index: 1;
+  top: 21px;
+  cursor: pointer;
+}
+.reg-form-img a{
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  
+}
+
+
+/* Contact form css  */
+.contact-form{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.contact-form input{ 
+  width: 30%;
+  padding: 8px 12px;
+  margin-top: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.185);
+  color: rgb(39, 39, 39);
+}
+.contact-form textarea{
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.185);
+}
+.contact-form textarea:focus , .contact-form input:focus{
+  outline: none;
+
+}
+
+.information{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.info-card{
+  width: 32%;
+  background-color: white;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 0px 18px;
+  
+}
+.info-card i{
+  font-size: 25px;
+
+}
+.info p{
+  color: rgba(0, 0, 0, 0.514);
+
+}
+
+
+/* About page css  */
+.right-about{
+  display: flex;
+  width: 60%;
+
+}
+.info-about h6
+{
+  padding-top: 10px;
+
+}
+.skills h6{
+  padding-top: 3px;
+  font-weight: 400;
+}
+.user-Photo{
+  width: 150px;
+  text-align: center;
+  margin: 20px auto;
+}
+.user-Photo img{
+  width: 100%;
+  border: 1px solid black;
+}
+.indicator{
+  height: 1px;
+  width: 100%;
+  background-color: rgba(41, 41, 41, 0.192);
+}
+.line{
+  height: 3px;
+  width: 11%;
+  background-color: rgb(147, 130, 245);
+  position: relative;
+}
+.edit-btn{
+  border: none;
+  background-color: rgb(255, 255, 255);
+  color: rgba(0, 0, 0, 0.5);
+}
